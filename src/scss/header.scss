@@ -1,0 +1,72 @@
+.header{
+  width: 100%;
+  position: absolute;
+  &__nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo{
+    display: flex;
+    align-items: center;
+  }
+  &__title{
+    @include text(bold, 18px, 22px, #FFFFFF);
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+  }
+  &__item{
+    margin-right: 25px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__itemLink{
+    @include text(normal, 14px, 17px, #FFFFFF);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  &__form{
+    display: flex;
+    align-items: center;
+  }
+  &__langSelect{
+    @include text(normal, 14px, 17px, #FFFFFF);
+    width: 96px;
+    height: 32px;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding-left: 50px;
+    text-transform: uppercase;
+  }
+  &__langLabel{
+    margin-right: 20px;
+  }
+  &__btn{
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    background: transparent;
+    outline: none;
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  &__logoBurder{
+    display: none;
+  }
+  &__imgLogo{
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,36 @@
+.slide{
+  padding: 95px 0 95px;
+  background: #ED4C5C;
+  &__title{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+  }
+  &__subtitle{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 40px 0 50px;
+    color: #000000;
+  }
+  &__icons{
+    margin-right: 25px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__icon{
+    width: 32px;
+    height: 32px;
+  }
+  &__img{
+    width: 445px;
+    height: 310px;
+    background: url("../images/slide/slide3.png")top left/ 100% 100% no-repeat;
+  }
+}
